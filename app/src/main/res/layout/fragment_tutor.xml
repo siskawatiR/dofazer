@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,5 +11,97 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="TutorFragment" />
+
+    <ImageView
+        android:id="@+id/bgimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/image_1" />
+
+    <ImageView
+        android:id="@+id/bgputih"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitEnd"
+        android:src="@drawable/bg_putih" />
+
+    <ImageView
+        android:id="@+id/selamatpagi"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:scaleType="center"
+        android:src="@drawable/selamatpagi" />
+
+    <ImageView
+        android:id="@+id/tutorsaatini"
+        android:layout_width="154dp"
+        android:layout_height="403dp"
+        android:scaleType="center"
+        android:src="@drawable/tutorsaatini" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="690dp"
+        android:layout_height="403dp"
+        android:scaleType="center"
+        android:src="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/tutor1"
+        android:layout_width="190dp"
+        android:layout_height="570dp"
+        android:scaleType="center"
+        android:src="@drawable/tutor1" />
+
+    <ImageView
+        android:id="@+id/tutor2"
+        android:layout_width="510dp"
+        android:layout_height="570dp"
+        android:scaleType="center"
+        android:src="@drawable/tutor2" />
+
+    <ImageView
+        android:id="@+id/tutor3"
+        android:layout_width="720dp"
+        android:layout_height="570dp"
+        android:scaleType="center"
+        android:src="@drawable/tutor3" />
+
+    <ImageView
+        android:id="@+id/produktif"
+        android:layout_width="217dp"
+        android:layout_height="760dp"
+        android:scaleType="center"
+        android:src="@drawable/produktif_minggu_ini" />
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="690dp"
+        android:layout_height="760dp"
+        android:scaleType="center"
+        android:src="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="match_parent"
+        android:layout_height="942dp"
+        android:scaleType="center"
+        android:src="@drawable/event1" />
+
+    <ImageView
+        android:id="@+id/sabtu"
+        android:layout_width="298dp"
+        android:layout_height="998dp"
+        android:scaleType="center"
+        android:src="@drawable/sabtu" />
+
+    <ImageView
+        android:id="@+id/gambar2"
+        android:layout_width="match_parent"
+        android:layout_height="1250dp"
+        android:scaleType="center"
+        android:src="@drawable/event2" />
+
 
 </FrameLayout>
