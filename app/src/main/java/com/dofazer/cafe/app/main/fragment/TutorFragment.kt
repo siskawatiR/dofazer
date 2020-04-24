@@ -9,12 +9,14 @@ import com.dofazer.cafe.R
 
 class TutorFragment : Fragment() {
 
+    var angka=1;
     companion object{
         fun newInstance() = TutorFragment()
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_tutor, container, false)
+
     }
 
 }
