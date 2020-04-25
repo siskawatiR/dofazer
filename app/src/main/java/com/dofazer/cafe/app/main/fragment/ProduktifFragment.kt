@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.dofazer.cafe.R
 
-class SewaFragment : Fragment() {
+class ProduktifFragment : Fragment() {
 
     companion object{
-        fun newInstance() = SewaFragment()
+        fun newInstance() = ProduktifFragment()
     }
 
     override fun onCreateView(
@@ -18,7 +18,7 @@ class SewaFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sewa, container, false)
+        return inflater.inflate(R.layout.fragment_produktif, container, false)
     }
 
 }

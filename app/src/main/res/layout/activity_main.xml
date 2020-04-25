@@ -25,7 +25,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:mbn_circleColor="@color/colorPrimary"
         app:mbn_selectedIconColor="@android:color/white"
-        app:mbn_rippleColor="@color/colorPrimary"
+        app:mbn_rippleColor="#FF643C"
         app:mbn_defaultIconColor="@color/colorPrimary"
         app:mbn_backgroundBottomColor="@android:color/white"
         android:elevation="4dp" />

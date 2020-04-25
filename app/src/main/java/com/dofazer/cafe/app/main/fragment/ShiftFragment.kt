@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.dofazer.cafe.R
 
-class PelatihanFragment : Fragment() {
+class ShiftFragment : Fragment() {
 
     companion object{
-        fun newInstance() = PelatihanFragment()
+        fun newInstance() = ShiftFragment()
     }
 
     override fun onCreateView(
@@ -18,7 +18,7 @@ class PelatihanFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_pelatihan, container, false)
+        return inflater.inflate(R.layout.fragment_shift, container, false)
     }
 
 }
