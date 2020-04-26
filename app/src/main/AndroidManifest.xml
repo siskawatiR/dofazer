@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".app.main.fragment.home"></activity>
+        <activity android:name=".app.main.fragment.Beranda"></activity>
+        <activity android:name=".app.main.fragment.BerandaFragment"></activity>
+        <activity android:name=".app.main.fragment.home" />
         <activity android:name=".app.main.fragment.awal_masuk" />
         <activity android:name=".app.main.fragment.awalDaftar" />
         <activity android:name=".app.main.fragment.AwalHalaman" />
