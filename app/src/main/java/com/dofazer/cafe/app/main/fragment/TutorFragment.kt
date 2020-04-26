@@ -8,8 +8,6 @@ import android.view.ViewGroup
 import com.dofazer.cafe.R
 
 class TutorFragment : Fragment() {
-
-    var angka=1;
     companion object{
         fun newInstance() = TutorFragment()
     }

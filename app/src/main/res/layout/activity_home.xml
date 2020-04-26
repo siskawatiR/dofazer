@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.main.fragment.TutorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="TutorFragment" />
+
+    <ImageView
+        android:id="@+id/bg_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/image_1" />
+
+    <ImageView
+        android:id="@+id/bg_putih"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitEnd"
+        android:src="@drawable/bg_putih" />
+
+    <ImageView
+        android:id="@+id/albert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="642dp"
+        android:scaleType="center"
+        android:src="@drawable/selamatpagi" />
+
+    <ImageView
+        android:id="@+id/tutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="520dp"
+        android:src="@drawable/tutorsaatini" />
+
+    <ImageView
+        android:id="@+id/tutor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="381dp"
+        android:scaleType="center"
+        android:src="@drawable/tutor1" />
+
+    <ImageView
+        android:id="@+id/tutor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="381dp"
+        android:src="@drawable/tutor2" />
+
+    <ImageView
+        android:id="@+id/tutor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="381dp"
+        android:src="@drawable/tutor3" />
+
+    <ImageView
+        android:id="@+id/produktif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="336dp"
+        android:src="@drawable/produktif_minggu_ini" />
+
+    <ImageView
+        android:id="@+id/gbr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="190dp"
+        android:src="@drawable/event1" />
+
+    <ImageView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="242dp"
+        android:src="@drawable/memulai_pemrograman" />
+
+    <ImageView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="220dp"
+        android:src="@drawable/sabtu" />
+
+    <ImageView
+        android:id="@+id/gbr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/event2" />
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="520dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="336dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/icon" />
+
+
+</RelativeLayout>
