@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.main.fragment.awalDaftar">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bg" />
+
+    <ImageView
+        android:id="@+id/bgorange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bgorange" />
+
+    <ImageView
+        android:id="@+id/kopi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/kopi" />
+
+    <ImageView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="456dp"
+        app:srcCompat="@drawable/kotak" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="451dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username " />
+
+    <ImageView
+        android:id="@+id/eemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="388dp"
+        app:srcCompat="@drawable/kotak" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="384dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email " />
+
+    <ImageView
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="324dp"
+        app:srcCompat="@drawable/kotak" />
+
+    <EditText
+        android:id="@+id/psw"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="320dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password" />
+
+    <ImageView
+        android:id="@+id/Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="260dp"
+        app:srcCompat="@drawable/kotak" />
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="256dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Alamat" />
+
+    <ImageView
+        android:id="@+id/noHp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="198dp"
+        app:srcCompat="@drawable/kotak" />
+
+    <EditText
+        android:id="@+id/nohp"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="195dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="No.Hp" />
+
+    <ImageView
+        android:id="@+id/btnDaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="106dp"
+        app:srcCompat="@drawable/btn_daftar" />
+
+</RelativeLayout>

@@ -7,15 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.dofazer.cafe.R
 
-class BerandaFragment : Fragment() {
-
-    var angka=1;
+class TutorFragment : Fragment() {
     companion object{
-        fun newInstance() = BerandaFragment()
+        fun newInstance() = TutorFragment()
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_beranda, container, false)
+        return inflater.inflate(R.layout.fragment_tutor, container, false)
 
     }
 
