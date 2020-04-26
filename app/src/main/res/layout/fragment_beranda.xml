@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,95 +14,140 @@
         android:text="TutorFragment" />
 
     <ImageView
-        android:id="@+id/bgimage"
+        android:id="@+id/bg_gambar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
         android:src="@drawable/image_1" />
 
     <ImageView
-        android:id="@+id/bgputih"
+        android:id="@+id/bg_putih"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitEnd"
         android:src="@drawable/bg_putih" />
 
     <ImageView
-        android:id="@+id/selamatpagi"
+        android:id="@+id/albert"
         android:layout_width="match_parent"
-        android:layout_height="146dp"
+        android:layout_height="162dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="642dp"
         android:scaleType="center"
         android:src="@drawable/selamatpagi" />
 
     <ImageView
-        android:id="@+id/tutorsaatini"
-        android:layout_width="154dp"
-        android:layout_height="403dp"
+        android:id="@+id/tutor"
+        android:layout_width="157dp"
+        android:layout_height="379dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="520dp"
         android:scaleType="center"
         android:src="@drawable/tutorsaatini" />
 
     <ImageView
-        android:id="@+id/icon"
-        android:layout_width="690dp"
-        android:layout_height="403dp"
-        android:scaleType="center"
-        android:src="@drawable/icon" />
-
-    <ImageView
         android:id="@+id/tutor1"
-        android:layout_width="190dp"
-        android:layout_height="570dp"
+        android:layout_width="184dp"
+        android:layout_height="540dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="381dp"
         android:scaleType="center"
         android:src="@drawable/tutor1" />
 
     <ImageView
         android:id="@+id/tutor2"
-        android:layout_width="510dp"
-        android:layout_height="570dp"
-        android:scaleType="center"
+        android:layout_width="540dp"
+        android:layout_height="540dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="381dp"
+        android:scaleType="centerInside"
         android:src="@drawable/tutor2" />
 
     <ImageView
         android:id="@+id/tutor3"
-        android:layout_width="720dp"
-        android:layout_height="570dp"
+        android:layout_width="789dp"
+        android:layout_height="540dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="381dp"
         android:scaleType="center"
         android:src="@drawable/tutor3" />
 
     <ImageView
         android:id="@+id/produktif"
-        android:layout_width="217dp"
-        android:layout_height="760dp"
+        android:layout_width="248dp"
+        android:layout_height="730dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="336dp"
         android:scaleType="center"
         android:src="@drawable/produktif_minggu_ini" />
 
     <ImageView
-        android:id="@+id/icon1"
-        android:layout_width="690dp"
-        android:layout_height="760dp"
-        android:scaleType="center"
-        android:src="@drawable/icon" />
-
-    <ImageView
-        android:id="@+id/gambar1"
+        android:id="@+id/gbr1"
         android:layout_width="match_parent"
-        android:layout_height="942dp"
+        android:layout_height="911dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="190dp"
         android:scaleType="center"
         android:src="@drawable/event1" />
 
     <ImageView
-        android:id="@+id/sabtu"
-        android:layout_width="298dp"
-        android:layout_height="998dp"
+        android:id="@+id/text1"
+        android:layout_width="312dp"
+        android:layout_height="940dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="242dp"
+        android:scaleType="center"
+        android:src="@drawable/memulai_pemrograman" />
+
+    <ImageView
+        android:id="@+id/text2"
+        android:layout_width="299dp"
+        android:layout_height="980dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="220dp"
         android:scaleType="center"
         android:src="@drawable/sabtu" />
 
     <ImageView
-        android:id="@+id/gambar2"
+        android:id="@+id/gbr2"
         android:layout_width="match_parent"
-        android:layout_height="1250dp"
+        android:layout_height="1200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp"
         android:scaleType="center"
         android:src="@drawable/event2" />
 
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="775dp"
+        android:layout_height="390dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="520dp"
+        android:scaleType="center"
+        android:src="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="775dp"
+        android:layout_height="730dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="336dp"
+        android:scaleType="center"
+        android:src="@drawable/icon" />
 
 </FrameLayout>
+
