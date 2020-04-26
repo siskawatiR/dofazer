@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/bg" />
+        android:src="@drawable/kopi" />
 
     <ImageView
         android:id="@+id/gradient"
@@ -54,6 +54,6 @@
         android:layout_marginEnd="110dp"
         android:layout_marginBottom="191dp"
         android:scaleType="center"
-        android:src="@drawable/dofazer" />
+        android:src="@drawable/text" />
 
 </FrameLayout>
